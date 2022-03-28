@@ -3,6 +3,7 @@ import Button from '../components/Button';
 import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
+import Clients from '../components/layout/Clients';
 import Layout from '../components/layout/Layout';
 import Services from '../components/Services';
 import SplitSection from '../components/SplitSection';
@@ -29,7 +30,8 @@ const Index = () => (
         </div>
       </div>
     </section>
-
+    {/* Clients */}
+    <Clients />
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
       <p className="mt-8 text-xl font-light">
