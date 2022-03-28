@@ -2,7 +2,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'oxford-blue': '#303B4A',
+        'oxford-blue': '#242730',
+        'orange': '#f54',
         primary: {
           lighter: 'hsl(207, 73%, 52%)',
           default: 'hsl(207, 73%, 57%)',

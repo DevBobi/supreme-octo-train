@@ -4,7 +4,7 @@ import React from 'react'
 
 const Clients = () => {
     return (
-        <div className="mx-auto py-10 px-4 w-full max-w-7xl bg-white text-gray-800">
+        <div className="mx-auto py-10 px-10 px-4 w-full max-w-7xl bg-white text-gray-800">
             <div className="flex flex-col items-center space-y-12">
 
                 {/* :TITLE CONTAINER */}
