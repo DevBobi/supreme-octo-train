@@ -17,6 +17,7 @@ const Header = () => {
 
         {/* Navbar */}
         <nav className="hidden md:ml-auto md:flex flex-wrap items-center justify-center tracking-wide text-xl font-medium">
+          <Link to="/link" className="mr-8 md:hidden lg:block text-4xl font-medium pr-40 text-gray-100 hover:text-gray-500">R</Link>
           <Link to="/link" className="mr-8 text-gray-100 hover:text-gray-500">Work</Link>
           <Link to="/link" className="mr-8 text-gray-100 hover:text-gray-500">About</Link>
           <Link href="#link" className="mr-8 text-gray-100 hover:text-gray-500">Career</Link>
