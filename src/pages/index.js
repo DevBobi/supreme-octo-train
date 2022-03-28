@@ -32,7 +32,9 @@ const Index = () => (
         We make future products and services, and help our clients adapt and remain ahead in an increasingly complex world.
       </p>
       <p className="mt-8">
-        <Button size="xl">Get Started</Button>
+        <button type="submit" class="md:w-40 bg-gray-200 duration-700 text-orange px-8 py-4 rounded-lg mt-4 border border-solid border-orange hover:bg-orange hover:text-white">
+          Get Started
+        </button>
       </p>
     </section>
     {/* Clients */}

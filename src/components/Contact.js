@@ -20,12 +20,12 @@ const Contact = () => {
                                 <input type="name" name="name" id="name" placeholder="First Name" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-500 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" />
                             </div>
 
-                            <div class="flex flex-col mt-2">
+                            <div class="flex flex-col mt-4">
                                 <label for="email" class="hidden">Last Name</label>
                                 <input type="name" name="name" id="email" placeholder="Last Name" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-500 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" />
                             </div>
 
-                            <div class="flex flex-col mt-2">
+                            <div class="flex flex-col mt-4">
                                 <label for="tel" class="hidden">Number</label>
                                 <input type="tel" name="tel" id="tel" placeholder="Telephone Number" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-500 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" />
                             </div>

@@ -18,9 +18,9 @@ const Hero = () => {
         <>
             <section className={
                 changeHeader ?
-                    "py-20 md:pt-30 bg-white text-black"
+                    "pt-20 pb-10 md:pt-30 bg-white text-black"
                     :
-                    " py-20 md:pt-30 bg-oxford-blue text-white"}>
+                    " pt-20 pb-10 md:pt-30 bg-oxford-blue text-white"}>
 
                 <div className="container justify-end px-8 lg:flex">
                     <div className="text-center lg:text-left lg:w-8/12 px-5">
